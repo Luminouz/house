@@ -10,6 +10,7 @@ background-image: url("images/image1.jpg");
 .intro-text {
     padding-top: 200px;
     padding-bottom: 158px;
+    text-shadow: 1px 1px #333333;
 }
 
 .underline {
@@ -25,6 +26,7 @@ background-image: url("images/image1.jpg");
 }
 
 .fa-plus{
+    font-size: 14px;
     color: #ff6633;
 }
 
@@ -121,6 +123,7 @@ article{
 .metadata{
     font-size: 13px;
     padding-left: 5px;
+    color: #CCCCCC;
 }
 
 /*text*/
@@ -137,13 +140,6 @@ article{
     color: #D3D3D3;
 }
 
-/*color
-Orange #ff6633 
-Light grey #999999
-dark gray #767676
-body #333333
-*/
-
 /*Images*/
 
 .image-hover {
@@ -155,11 +151,6 @@ body #333333
     color: #ffffff;
     padding-top: 70px;
 }
-
-/*.image-hover:hover {
-    opacity: 0.4;
-}
-*/
 
 .image-hover:hover {
     opacity: 1;
